@@ -1,11 +1,7 @@
 import React, { useState, useCallback } from 'react';
+import "./style/UserProfile.css";
 
 const UserProfile = (props) => {
-    const [ userProfile, setUserProfile ] = useState([]);
-    const handleLogIn = useCallback((event) => {
-            setUserProfile(event.target.value);
-        },[]
-    );
 
     if(!props.name) {
         return (
@@ -14,8 +10,7 @@ const UserProfile = (props) => {
     } else {
         return (
             <div className="Userprofile">
-                <h2>Logged in as <b>{props.name}</b></h2>
-                <img src={props.image} />
+                <h2>Hello <b>{props.name}!</b></h2><img src={props.image} />  
             </div>
         )
     }
