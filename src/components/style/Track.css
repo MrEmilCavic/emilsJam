@@ -1,0 +1,32 @@
+.Track {
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(47, 47, 47, 0.5);
+    background: rgb(255, 223, 155, 0.5);
+
+}
+
+.renderTrack {
+    cursor: pointer;
+    transition: color 0.5s;
+    border: 0px;
+    background-color: #ffdf9b;
+    color: #2f2f2f;
+    border-radius: 40%;
+    padding:0.5em 0.8em;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.renderTrack:hover {
+    color:#9e9c9c;
+}
+
+.Tracktext {
+    flex-grow:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}

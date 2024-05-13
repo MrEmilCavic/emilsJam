@@ -1,0 +1,24 @@
+.SearchResult {
+    padding: 1rem;
+    background: rgb(255, 223, 155, 0.75);
+    overflow-y: scroll;
+    width: 50%;
+    height: 965px;
+    box-shadow: 4px 4px 2px 2px #2f2f2f;
+}
+
+h2 {
+    font-size:2rem;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+@media only screen and (max-width: 1020px) {
+  .SearchResult {
+    width: 90%;
+    margin-bottom: 2rem;
+  }
+}
