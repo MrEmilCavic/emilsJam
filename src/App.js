@@ -9,7 +9,6 @@ import UserProfile from './components/UserProfile.js';
 
 const App = () => {
   
-  //const [loggedIn, setLoggedIn] = useState();
   const [searchResult, setSearchResult] = useState([]);
   const [playList, setPlayList] = useState([]);
   const [listName, setListName] = useState('Create your new jam!');
@@ -55,30 +54,29 @@ const getProfile = useEffect(() => {
       });
       }, [listName, playList]);
 
-            return (
-              <div className="appContainer">
-                <header className="header">
-                  <img src={logo} className="App-logo" alt="logo" style={{width:'20rem', height: 'auto'}}/>
-                </header>
-                <main className="main">
-                <UserProfile name={userName} 
-                            image={userImg}
-                            onLogIn={getProfile}
-                            /> <br/>
-                <SearchBar onSearch={searchQuery} />
-                <div className="listContainer">
-                  <SearchResult searchResult={searchResult} onAdd={addTrack}/>
-                  <Playlist listName={listName} 
-                            playList={playList} 
-                            onRemove={removeTrack} 
-                            onSave={savePlayList}
-                            onNameChange={listNameChange}
-                            />
-                </div>
-                </main>
-              </div>
-              
-              );
+  return (
+    <div className="appContainer">
+      <header className="header">
+        <img src={logo} className="App-logo" alt="logo" style={{width:'20rem', height: 'auto'}}/>
+      </header>
+      <main className="main">
+        <UserProfile name={userName} 
+                      image={userImg}
+                      onLogIn={getProfile}
+                      /> <br/>
+        <SearchBar onSearch={searchQuery} />
+         <div className="listContainer">
+           <SearchResult searchResult={searchResult} onAdd={addTrack}/>
+           <Playlist listName={listName} 
+                      playList={playList} 
+                      onRemove={removeTrack} 
+                      onSave={savePlayList}
+                      onNameChange={listNameChange}
+                      />
+          </div>
+        </main>
+      </div>     
+  );
            
 };
 

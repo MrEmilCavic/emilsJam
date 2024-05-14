@@ -1,5 +1,7 @@
 const clientId = '5e99e149119142ccb907bc0fc80a38be'; 
-const redirectUri = 'https://mremilcavic.github.io/emilsjam/callback/';
+//const redirectUri = 'http://localhost:3000/callback/';
+const redirectUri = 'https://mremilcavic.github.io/emilsjam/';
+
 let accessToken;
 let userId;
 
