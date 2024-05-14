@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/emilsjam/static/css/main.e8f3a395.css",
-    "main.js": "/emilsjam/static/js/main.72a4d150.js",
+    "main.js": "/emilsjam/static/js/main.292237ad.js",
     "static/js/453.cbe99c5f.chunk.js": "/emilsjam/static/js/453.cbe99c5f.chunk.js",
     "static/media/chillhop_bg.jpg": "/emilsjam/static/media/chillhop_bg.5203a9d139add34b06bb.jpg",
     "static/media/emilsjamlogo.png": "/emilsjam/static/media/emilsjamlogo.45b97c15d31453517a9a.png",
     "index.html": "/emilsjam/index.html",
     "main.e8f3a395.css.map": "/emilsjam/static/css/main.e8f3a395.css.map",
-    "main.72a4d150.js.map": "/emilsjam/static/js/main.72a4d150.js.map",
+    "main.292237ad.js.map": "/emilsjam/static/js/main.292237ad.js.map",
     "453.cbe99c5f.chunk.js.map": "/emilsjam/static/js/453.cbe99c5f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e8f3a395.css",
-    "static/js/main.72a4d150.js"
+    "static/js/main.292237ad.js"
   ]
 }
